@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
 /.pnp
+/.eslintcache
 .pnp.js
 
 # testing
@@ -25,3 +26,22 @@ yarn-error.log*
 # IDE
 .vscode
 .idea
+
+# Logs
+/logs
+/*.log
+/npm-debug.log*
+
+# Coverage
+/coverage
+
+# Transpiled files
+/build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# Optional npm cache directory
+.npm
+
